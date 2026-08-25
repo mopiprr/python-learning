@@ -23,7 +23,7 @@ else:
 price = 1000
 credit_good = True
 
-if credit_good == True:
+if credit_good:
     down_payment = price * 0.1
 else:
     down_payment = price * 0.2
